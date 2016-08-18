@@ -50,7 +50,7 @@ Systemd Unit file (edit for your own use):
     Type=simple
     User=meskarune
     Environment=DISPLAY=:0
-    ExecStart=/usr/bin/xautolock -time 5 -locker /usr/local/bin/lock/lock -detectsleep
+    ExecStart=/usr/bin/xautolock -time 5 -locker /usr/local/bin/lock -detectsleep
     
     [Install]
     WantedBy=graphical.target
