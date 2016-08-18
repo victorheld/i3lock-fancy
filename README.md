@@ -21,7 +21,7 @@ Install by cloning the repo and running ./install.sh or manually copying lock, l
 
 Removal
 ------------
-Remove by running ./remove or by deleting lock, lock.png and lockdark.png from "/usr/local/bin" 
+Remove by running ./remove.sh or by deleting lock, lock.png and lockdark.png from "/usr/local/bin" 
 
 Usage
 -----
