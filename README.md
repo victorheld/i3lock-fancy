@@ -17,8 +17,11 @@ Dependencies
 
 Installation
 ------------
-git clone the repository and copy lock, lock.png and lockdark.png to
-"/usr/local/bin"
+Install by cloning the repo and running ./install.sh or manually copying lock, lock.png and lockdark.png to "/usr/local/bin"
+
+Removal
+------------
+Remove by running ./remove or by deleting lock, lock.png and lockdark.png from "/usr/local/bin" 
 
 Usage
 -----
