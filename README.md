@@ -1,11 +1,9 @@
-i3lock-fancy
+i3lock-fancy (with battery percentage)
 ============
 
-This is an i3lock bash script that takes a screenshot of the desktop, blurs the background and adds a lock icon and text
+This is an i3lock bash script that takes a screenshot of the desktop, blurs the background and adds a lock icon and text with the battery percentage
 
-website: [github pages website](http://meskarune.github.io/i3lock-fancy/)
-
-![screen shot of lockscreen](https://raw.githubusercontent.com/meskarune/i3lock-fancy/master/screenshot.png)
+![screen shot of lockscreen](https://raw.githubusercontent.com/victorheld/i3lock-fancy/master/screenshot.png)
 
 Dependencies
 ------------
@@ -19,8 +17,6 @@ Dependencies
 
 Installation
 ------------
-Arch Linux Package: https://aur.archlinux.org/packages/i3lock-fancy-git/
-
 git clone the repository and copy lock, lock.png and lockdark.png to
 "/usr/local/bin"
 
@@ -40,10 +36,6 @@ example: ```lock -gpf Comic-Sans-MS```
 Extras
 ------
 
-The lock screen in action:
-
-![lockscreen animation](https://raw.githubusercontent.com/meskarune/i3lock-fancy/master/action.gif)
-
 Use this with xautolock to automatically lock the screen after a set time.
 
 Systemd Unit file (edit for your own use):
@@ -59,11 +51,3 @@ Systemd Unit file (edit for your own use):
     
     [Install]
     WantedBy=graphical.target
-
-Multiple Monitors
------------------
-There is a branch called dual monitor with support for multiple monitors. This
-branch uses a grey icon and text with outlines to make it visible on light and
-dark backgrounds (though it looks better on dark backgrounds). I am still
-working to get it looking just right right. The script is usable now, but it's
-under developement and things may change.
